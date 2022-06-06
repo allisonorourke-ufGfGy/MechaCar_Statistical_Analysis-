@@ -10,3 +10,13 @@ This linear model has an r-squared value of 0.7149, which means that approximate
 ![image2]
 ![image3]
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+When looking at the summary for the varience across all lots we are able to see that the variance is 62.29 PSI, which fits within the 100 requirement. Even when it is broken down into the different lots we are able to see that Lot 1 and 2 have variances of 0.98 and 7.47 respectively. Lot 3 however have a variance of 170.29 PSI which is where most of the variance is coming from.
+
+## T-Tests on Suspension Coils
+![image4]
+With a p-Value of 0.06 there is not enough evidence to support rejecting the null hypothesis. The mean of all three of these manufacturing lots is statistically similar to the presumed population mean of 1500. 
+For Lot 1, it has a p-value of 1 which means there is not enough evidence to support rejecting the null hypothesis and that there is no statistical difference between the observed sample mean and the presumed population mean (1500).
+For Lot 2, there is a p-Value of 0.61 which means the null hypothesis cannot be rejected and the sample mean and the population mean of 1500 are statistically similar.
+For Lot 3, the sample mean is 1496.14 and the p-Value is 0.04, which means we can reject the null hypothesis that this sample mean and the presumed population mean are not statistically different.
+
+## Study Design: MechaCar vs Competition
