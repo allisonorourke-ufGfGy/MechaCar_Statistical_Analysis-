@@ -28,4 +28,6 @@ To look at the difference between the companies there are a number of different 
 * Null hypothesis: There is no different between the MechaCar company's vehicale and other manufactures vehicles.
 * Alternative hypothesis: The safey rating of  MechaCar company's vehicale is higher compared to other manufactures vehicles.
 
-The statistical test that we would use is the t-test.
+The statistical test that we would use is the t-test. This would show if there is a statistical differenc ebetween the saftey rating between the two companies.
+
+The data set would need to have the saftey rating broken down by company and then by car. 
